@@ -12,7 +12,7 @@ I thought about using a python package called fast_boltzmann to actually calcula
 ## Anyway. Go play with it!
 
 
-<iframe src="https://www.glowscript.org/#/user/ciuli06ciuli/folder/MyPrograms/program/entropycube/embed" width="800" height="800" sandbox="allow-scripts allow-same-origin" style="border: 1px solid #ccc; border-radius: 8px;"></iframe>
+<iframe src="https://www.glowscript.org/#/user/ciuli06ciuli/folder/MyPrograms/program/entropycube" width="800" height="800" sandbox="allow-scripts allow-same-origin" style="border: 1px solid #ccc; border-radius: 8px;"></iframe>
 
 ## How It Works
 
