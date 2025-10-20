@@ -22,12 +22,11 @@ jobs:
         with:
           python-version: 3.x
 
-      # 3. Installs your MkDocs dependencies
+      # 3. Install dependencies
       - name: Install Dependencies
         run: |
-          pip install mkdocs
           pip install mkdocs-material
 
-      # 4. Deploys the site
+      # 4. Deploy the site
       - name: Deploy
         run: mkdocs gh-deploy --force
