@@ -1,1 +1,34 @@
-site_name: My Docs
+# mkdocs.yml
+
+site_name: My VPython Projects
+site_author: ciuli06ciuli
+site_description: 'Just some VPython stuff I made. Here is how I did it (and how you can too).'
+
+theme:
+  name: material
+  palette:
+    # A simple light/dark mode toggle
+    - scheme: default
+      primary: 'blue grey'
+      accent: 'light blue'
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: 'blue grey'
+      accent: 'light blue'
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.tabs # Makes the nav bar look cleaner
+    - navigation.top
+
+nav:
+  - 'Home': 'index.md'
+  - 'The Entropy Cube': 'entropy_cube.md'
+  - 'The Fire Sim': 'fire_simulation.md'
+
+markdown_extensions:
+  - admonition # Lets us make those cool info boxes
+  - pymdownx.superfences # Lets code blocks look good

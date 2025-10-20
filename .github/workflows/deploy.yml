@@ -26,9 +26,7 @@ jobs:
       - name: Install Dependencies
         run: |
           pip install mkdocs
-          # IMPORTANT: If you use a theme (like Material) or any plugins,
-          # install them here. For example:
-          # pip install mkdocs-material
+          pip install mkdocs-material
 
       # 4. Deploys the site
       - name: Deploy
