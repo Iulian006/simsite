@@ -1,0 +1,35 @@
+name: Deploy MkDocs Site
+
+on:
+  # Triggers the workflow on push events to the main branch
+  push:
+    branches:
+      - main
+
+# Sets permissions for the job
+permissions:
+  contents: write
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      # 1. Checks out your repository's code
+      - uses: actions/checkout@v4
+
+      # 2. Sets up Python
+      - uses: actions/setup-python@v5
+        with:
+          python-version: 3.x
+
+      # 3. Installs your MkDocs dependencies
+      - name: Install Dependencies
+        run: |
+          pip install mkdocs
+          # IMPORTANT: If you use a theme (like Material) or any plugins,
+          # install them here. For example:
+          # pip install mkdocs-material
+
+      # 4. Deploys the site
+      - name: Deploy
+        run: mkdocs gh-deploy --force
