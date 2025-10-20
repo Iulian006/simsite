@@ -1,0 +1,28 @@
+/* Just a few tweaks to make it feel a bit more personal */
+
+body {
+  line-height: 1.7;
+}
+
+/* Make iframes look a bit cleaner */
+iframe {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  margin-top: 1em;
+  margin-bottom: 1.5em;
+  max-width: 100%;
+}
+
+/* Style the admonition boxes (for the entropy explanation) */
+.md-typeset .admonition {
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.md-typeset .admonition-title {
+  font-weight: 600;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  padding-bottom: 0.5em;
+  margin-bottom: 0.75em;
+}
