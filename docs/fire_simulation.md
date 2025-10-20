@@ -9,7 +9,7 @@ It's got physics, color blending, and a few clever tricks to run fast and look g
 ## Play With It!
 Make sure to toggle "Show Entropy Bins", it took to long to implement for noone to see it
 
-<iframe src="https://glowscript.org/#/user/ciuli06ciuli/folder/MyPrograms/program/firesim/embed" width="800" height="700" sandbox="allow-scripts allow-same-origin" style="border: 1px solid #ccc; border-radius: 8px;"></iframe>
+<iframe src="simulations/firesim.html" width="800" height="700" style="border: 1px solid #ccc; border-radius: 8px;"></iframe>
 
 ## The Interesting Bits
 
